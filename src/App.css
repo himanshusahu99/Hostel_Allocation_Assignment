@@ -1,0 +1,269 @@
+.mynav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chooseHostel {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.chooseHostelBtn {
+  /* width: 200px; */
+  height: 150px;
+  border-radius: 20px;
+  padding: 100px;
+  color: white;
+  font-size: 20px;
+  box-shadow: 30px 30 30px;
+}
+
+.girlsHostelBTN {
+  /* background-color: rgb(236, 68, 241); */
+  font-weight: 500;
+  color: black;
+
+  background: url("./images/girl.png");
+  background-repeat: no-repeat;
+  background-position: 50% 15px;
+  background-color: rgb(240, 154, 243);
+}
+
+.girlsHostelBTN:hover {
+  background-color: rgb(241, 140, 245);
+}
+
+.boysHostelBTN {
+  font-weight: 500;
+  color: black;
+
+  background: url("./images/boys.png");
+  background-repeat: no-repeat;
+  background-position: 50% 15px;
+  background-color: rgb(139, 206, 245);
+}
+.boysHostelBTN:hover {
+  background-color: rgb(104, 191, 241);
+}
+
+.selectedHostleBG {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  margin: 50px auto;
+  /* background-color: red; */
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+}
+.selectHostleH6 {
+  font-size: larger;
+}
+
+.hostelNameDiv {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+
+  transform: translate(-50%, -50%);
+  /* background-color: #4267b2; */
+  /* display: grid;
+  grid-template-columns: 3fr 3fr 3fr; */
+  /* position: absolute; */
+  /* display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  justify-items: center; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hostelNameChild {
+  background-color: rgb(71, 45, 45);
+  color: black;
+  padding: 5px 5px;
+  margin: 0px 0px 30px 30px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  width: 70px;
+  height: 70px;
+  font-weight: 500;
+  /* text-align: center; */
+  border: 5px solid black;
+  border-radius: 10px;
+  color: white;
+}
+
+.hostelNameChild:hover {
+  text-decoration: none;
+  background-color: #e2aa89;
+  color: brown;
+  cursor: pointer;
+}
+
+.chooseFloorBG {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  margin: 50px auto;
+  /* background-color: red; */
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+}
+
+.selectedTagBG {
+  margin: auto;
+}
+.selectTag {
+  margin-left: 10px;
+  width: 300px;
+  height: 40px;
+  /* border: 3px solid black; */
+  font-weight: 500;
+  border-radius: 40px;
+  margin-left: 8%;
+}
+
+.floorNumber {
+  background-color: rgb(146, 231, 135);
+  color: black;
+  padding: 5px 5px;
+  margin: 0px 0px 30px 30px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  width: 70px;
+  height: 70px;
+  font-weight: 500;
+  /* text-align: center; */
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.floorNumber:hover {
+  text-decoration: none;
+  background-color: rgb(101, 228, 69);
+  color: brown;
+  cursor: pointer;
+}
+
+.roomNumberBox {
+  /* background-color: blue; */
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: 2px solid black; */
+  /* padding: 30px; */
+}
+.choosFloor {
+  margin: 30px auto;
+}
+
+.succesreportBG {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 50px auto;
+  background-color: rgb(219, 238, 245);
+  /* text-align: center; */
+  position: relative;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.sumsg {
+  margin: 20px;
+  text-align: center;
+}
+
+.roomdetails {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.details {
+  color: red;
+}
+
+.bookbuttnBG {
+  /* background-color: green; */
+  margin: auto;
+}
+
+.bookbtn {
+  margin-left: 35px;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  transition: all 1s ease-in-out;
+}
+
+.logoutBTN:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.loginBtnBGGoogle {
+  width: 400px;
+  height: 400px;
+
+  text-align: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: RED; */
+}
+
+.loginchildBTN {
+  display: block;
+  margin-top: 50px;
+  height: 100px;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* background-color: green; */
+}
+
+.loginBTN {
+  background-color: rgb(107, 107, 240);
+  color: black;
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 5px black;
+  cursor: pointer;
+}
+
+.googlebtn {
+  background-color: white;
+  color: black;
+  background: url("./images/google.png");
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+}
+
+.facebookbtn {
+  background-color: #4267b2;
+  /* color: white; */
+  background: url("./images/facebook.png");
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+}
+
+nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid rgb(128, 125, 125);
+}
