@@ -27,7 +27,7 @@ function GoogleLogin(props) {
       localStorage.setItem("loginID", res.email);
       console.log(res.email);
     } else {
-      alert("check You connection");
+      alert("error: check your connection");
     }
   };
 
