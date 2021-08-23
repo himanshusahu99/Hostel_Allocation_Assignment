@@ -4,7 +4,7 @@
 }
 
 .chooseHostel {
-  width: 800px;
+  max-width: 800px;
   height: 400px;
   margin: auto;
   /* background-color: green; */
@@ -12,6 +12,8 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .chooseHostelBtn {
@@ -22,6 +24,7 @@
   color: white;
   font-size: 20px;
   box-shadow: 30px 30 30px;
+  margin: 40px;
 }
 
 .girlsHostelBTN {
@@ -54,7 +57,7 @@
 
 .selectedHostleBG {
   position: relative;
-  width: 600px;
+  max-width: 600px;
   height: 500px;
   margin: 50px auto;
   /* background-color: red; */
@@ -67,7 +70,7 @@
 }
 
 .hostelNameDiv {
-  width: 500px;
+  max-width: 500px;
   height: 400px;
   position: absolute;
   left: 50%;
@@ -83,6 +86,7 @@
   justify-items: center; */
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hostelNameChild {

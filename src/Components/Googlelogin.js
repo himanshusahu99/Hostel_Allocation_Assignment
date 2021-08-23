@@ -7,18 +7,24 @@ function GoogleLogin(props) {
   const handleOnClickforgoogle = async (provider) => {
     const res = await socialmediaAuth(provider);
     console.log(res);
-    props.setLogined(res.displayName);
-    localStorage.setItem("loginID", res.displayName);
-    console.log(res.displayName);
+
+    if (res) {
+      props.setLogined(res.displayName);
+      localStorage.setItem("loginID", res.displayName);
+      console.log(res.displayName);
+    }
   };
 
   const handleOnClickforFacebook = async (provider) => {
     const res = await socialmediaAuth(provider);
     console.log(res);
-    props.setLogined(res.email);
 
-    localStorage.setItem("loginID", res.email);
-    console.log(res.email);
+    if (res) {
+      props.setLogined(res.email);
+
+      localStorage.setItem("loginID", res.email);
+      console.log(res.email);
+    }
   };
 
   return (
