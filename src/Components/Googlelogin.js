@@ -8,10 +8,12 @@ function GoogleLogin(props) {
     const res = await socialmediaAuth(provider);
     console.log(res);
 
-    if (res) {
+    if (res.displayName) {
       props.setLogined(res.displayName);
       localStorage.setItem("loginID", res.displayName);
       console.log(res.displayName);
+    } else {
+      alert("error: check your connection");
     }
   };
 
@@ -19,11 +21,13 @@ function GoogleLogin(props) {
     const res = await socialmediaAuth(provider);
     console.log(res);
 
-    if (res) {
+    if (res.email) {
       props.setLogined(res.email);
 
       localStorage.setItem("loginID", res.email);
       console.log(res.email);
+    } else {
+      alert("check You connection");
     }
   };
 
